@@ -1,0 +1,16 @@
+{
+  "name": "test_serial_electron",
+  "version": "1.0.0",
+  "description": "Electron app for serial communication",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^33.2.1",
+    "serialport": "^12.0.0"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^3.2.9"
+  }
+}
